@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="1dp"
+    android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:id="@+id/whole_post">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginRight="5dp"
+        android:orientation="horizontal">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="4dp"
+            android:src="@drawable/nishimiya2"
+            app:civ_border_color="@color/instacentercolor"
+            app:civ_border_width="2dp" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="4"
+            android:text="Nishimiya Shouko"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="14dp"
+            android:paddingBottom="14dp"
+            android:src="@drawable/menu"
+            app:tint="#020000" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/image_first_main"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_marginTop="2dp"
+        android:background="#979595"
+        android:scaleType="centerCrop"
+        android:src="@drawable/obito" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <ImageView
+
+            android:layout_width="40dp"
+            android:layout_height="45dp"
+            android:padding="4dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="2dp"
+            android:src="@drawable/heart"
+            app:tint="#070707" />
+
+        <ImageView
+
+            android:layout_width="40dp"
+            android:layout_height="45dp"
+            android:padding="4dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="2dp"
+            android:src="@drawable/comment"
+            app:tint="#070707" />
+
+        <ImageView
+
+            android:layout_width="40dp"
+            android:layout_height="45dp"
+            android:padding="4dp"
+            android:paddingLeft="4dp"
+            android:paddingRight="2dp"
+            android:src="@drawable/dm"
+            app:tint="#070707" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:orientation="horizontal">
+
+            <ImageView
+
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:paddingTop="4dp"
+                android:src="@drawable/save"
+                app:tint="#070707" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginLeft="3dp"
+            android:padding="2dp"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:text="Liked by"
+            android:textColor="#070000"
+            app:drawableTint="#FC070000" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginLeft="3dp"
+
+            android:padding="2dp"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:text="Kaneki"
+            android:textColor="#070000"
+            android:textStyle="bold"
+            app:drawableTint="#FC070000" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginLeft="3dp"
+
+            android:padding="2dp"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:text="and"
+            android:textColor="#070000"
+            app:drawableTint="#FC070000" />
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginLeft="3dp"
+            android:padding="2dp"
+            android:paddingLeft="2dp"
+            android:paddingRight="2dp"
+            android:text="1,278 others"
+            android:textColor="#070000"
+            android:textStyle="bold"
+            app:drawableTint="#FC070000" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginLeft="3dp"
+            android:padding="2dp"
+            android:text="Nishimiya Shouko"
+            android:textColor="#0C0000"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:layout_marginLeft="3dp"
+            android:text="-lost control of my heart and soul."
+            android:textColor="#0C0000" />
+    </LinearLayout>
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginBottom="3dp"
+
+        android:paddingLeft="2dp"
+        android:text="View all 14 comments"
+        android:textSize="12sp" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="2dp"
+        android:text="2 HOURS AGO"
+        android:textSize="10sp" />
+
+    <View
+
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginBottom="3dp"
+        android:background="#D5D2D2" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginStart="3dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:gravity="start"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="25dp"
+            android:layout_gravity="left"
+            android:src="@drawable/plus"
+            app:srcCompat="@drawable/happy" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Add a comment..." />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:text="Post"
+            android:textColor="#D24694F3" />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+</LinearLayout>

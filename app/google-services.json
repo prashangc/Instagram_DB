@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "472237769613",
+    "project_id": "instagram-with-db",
+    "storage_bucket": "instagram-with-db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:472237769613:android:545d39d8b637892ade33c4",
+        "android_client_info": {
+          "package_name": "com.example.db_successful"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "472237769613-rbjv0lonaunbf6l3al5k6tfico918m1u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBYtxALAluHOYoM-USB7zILGW6ulsxOf6k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "472237769613-rbjv0lonaunbf6l3al5k6tfico918m1u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
